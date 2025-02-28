@@ -1,0 +1,13 @@
+.Meaning section {
+  margin-top: 20px;
+}
+
+.Meaning .partOfSpeech {
+  font-size: 23px;
+  font-weight: bold;
+  color: black;
+}
+
+.Meaning .example {
+  opacity: 0.5;
+}
