@@ -11,6 +11,10 @@ export default function Dictionary() {
     setResults(response.data);
   }
 
+  function handleImageResponse (response) {
+    
+  }
+
   function Search(event) {
     event.preventDefault();
 
@@ -18,6 +22,13 @@ export default function Dictionary() {
     let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${keyword}&key=${apiKey}`;
 
     axios.get(apiUrl).then(handleResponse);
+
+    let imageApiKey = "bd69aeefb72b8a36of7aa0db00f9b34t";
+    let imageApiUrl = `https://api.shecodes.io/images/v1/search?query=${keyword}&key=${imageApiKey};
+
+    axios.get(imageApiUrl).then(handleImageResponse)
+
+    
   }
 
   function handleInput(event) {
