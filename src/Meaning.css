@@ -1,11 +1,12 @@
-.Meaning section {
-  margin-top: 20px;
-}
-
 .Meaning .partOfSpeech {
   font-size: 23px;
   font-weight: bold;
-  color: black;
+  color: #7c73e6;
+}
+
+.Meaning .definition {
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .Meaning .example {
