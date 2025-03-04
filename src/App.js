@@ -9,7 +9,8 @@ export default function App() {
           <Dictionary />
         </header>
         <footer>
-          Coded with 🩷 by Victoria Cadd and is open-sourced on {""}
+          Coded with 🩷 by <a href="https://github.com/vjc1988">Victoria Cadd</a>{" "}
+          and is open-sourced on {""}
           <a href="https://github.com/vjc1988/Dictionary-Application">
             Github
           </a>{" "}

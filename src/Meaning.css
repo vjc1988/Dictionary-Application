@@ -13,4 +13,5 @@
 .Example {
   opacity: 0.5;
   font-style: italic;
+  margin-bottom: 15px;
 }
