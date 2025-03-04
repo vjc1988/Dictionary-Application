@@ -7,8 +7,10 @@
 .Meaning .definition {
   font-size: 16px;
   font-weight: bold;
+  color: #c4c1e0;
 }
 
-.Meaning .example {
+.Example {
   opacity: 0.5;
+  font-style: italic;
 }

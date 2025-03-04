@@ -11,11 +11,14 @@
 .Dictionary .title {
   font-size: 55px;
   color: #7c73e6;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .Dictionary .titleQuestion {
   font-size: 20px;
   text-align: left;
+  color: #c4c1e0;
 }
 
 .Dictionary input {
